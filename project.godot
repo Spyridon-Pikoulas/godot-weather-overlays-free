@@ -1,0 +1,22 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="Weather Overlays Free"
+run/main_scene="res://addons/weather_overlays/demo/demo.tscn"
+config/features=PackedStringArray("4.3")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.05, 0.05, 0.09, 1)
+
+[autoload]
+
+FullPack="*res://addons/weather_overlays/demo/full_pack.gd"
